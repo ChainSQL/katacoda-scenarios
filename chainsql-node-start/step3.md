@@ -7,8 +7,10 @@ ChainSQL的配置文件一般放在与可执行文件 chainsqld 同级的目录�
 
 配置多个节点需要注意其中的`[ips]`与 `[validators]`需要节点间两两配置
 
+众享实验室提供了一个[配置文件生成工具](https://github.com/ChainSQL/chainsql-tools)，可以将根据配置模板将`[ips]`与 `[validators]`都配置好
+
 ## 下载打包好的4个节点配置文件
-1. 执行命令`cd ~ && wget http://chainsql.net/Downloads/chainsql-cfgs.tar.gz`{{execute}} 下载 chainsql-tools.tar.gz 然后执行命令
+1. 执行命令`cd ~ && wget http://chainsql.net/chainsql-cfgs.tar.gz`{{execute}} 下载 chainsql-cfgs.tar.gz 然后执行命令
 2. 执行命令 `tar zxvf chainsql-cfgs.tar.gz -C ~/chainsql`{{execute}} 进行解压
 
 
