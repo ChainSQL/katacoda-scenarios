@@ -1,0 +1,1 @@
+在这节课程中，你将学到如何使用`docker`对`chainsql`进行部署，我们将部署4个docker容器，每个容器中一个chainsql进程
