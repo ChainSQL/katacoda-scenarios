@@ -1,6 +1,6 @@
 {
-  "title": "docker部署chainsql",
-  "description": "使用docker容器部署chainsql网络",
+  "title": "ChainSQL的简单使用",
+  "description": "ChainSQL一些基本操作",
   "difficulty": "Beginner",
   "time": "10minutes",
   "details": {
@@ -20,6 +20,10 @@
       {
         "title": "Step 4",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
       }
     ],
     "intro": {

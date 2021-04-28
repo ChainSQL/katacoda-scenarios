@@ -6,7 +6,7 @@
 2. 执行以下命令，用docker启动4个节点
 `docker-compose -f chainsql-deployment.yaml up -d`{{execute}}
 
-3. 查看容器列表`docker ps`{{execute}}
+3. 查看容器列表`docker ps`{{execute}} 可以看到我们启动了4个容器，名称分别为`node1`,`node2`,`node3`,`node4`
 
 4. 进入节点1的容器`docker exec -it node1 sh`{{execute}}
 
