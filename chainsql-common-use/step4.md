@@ -83,9 +83,13 @@ curl -H "Content-Type: application/json" -X POST -d '
 
 3. 在数据库中查看表
     - 执行命令 `docker exec -it docker-mysql sh`{{execute}} 进入到mysql容器
+
     - 执行命令 `mysql -uroot -p12341`{{execute}} 登录mysql
+
     - 执行命令 `use chainsql` 切换到chainsql数据库
+
     - 执行命令 `show tables;`{{execute}} 可以看到数据库中有两张表，`SyncTableState`为管理表，t_开头的是我们刚刚在链上建的表
+    
     - 可以执行命令 `select * from SyncTableState;`{{execute}}查看管理表的内容
 
 4. 查询表中的数据，执行下面的命令查询表中所有内容，注意将其中的 t_37F7B9AE97A20933D90D41AA86F76226EF467C5D换成数据库中真正的表名

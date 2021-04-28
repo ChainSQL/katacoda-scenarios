@@ -1,7 +1,7 @@
 在容器中启动节点
 
 1. 拉取docker部署相关的配置文件：
-`cd ~ && wget https://github.com/luleigreat/katacoda-scenarios/blob/main/chainsql-docker-start/chainsql-deploy.tar.gz && tar zxvf chainsql-deploy.tar.gz`{{execute}}
+`cd ~ && wget http://chainsql.net/chainsql-deploy.tar.gz && tar zxvf chainsql-deploy.tar.gz && rm chainsql-deploy.tar.gz`{{execute}}
 
 2. 执行以下命令，用docker启动4个节点
 `docker-compose -f chainsql-deployment.yaml up -d`{{execute}}

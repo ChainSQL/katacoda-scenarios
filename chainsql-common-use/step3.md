@@ -5,7 +5,9 @@ ChainSQL在创世块中有一个根账户（`zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh`
 
 ## 激活账户
 1. 生成一个新的账户`./chainsqld wallet_propose`{{execute}}，并复制结果中的`account_id`字段的值，如`z9t6fxjiRMx7P5wTJEX65p6ys9JFxWSN93`
+
 2. 执行命令 `./chainsqld account_info z9t6fxjiRMx7P5wTJEX65p6ys9JFxWSN93`{{execute}} 查看账户信息，会报一个`actNotFound`的错误，说明账户在链上不存在
+
 3. 执行下面的命令激活新的账户，注意将`Destinaion`字段值成之前复制的`account_id`值
 ```
 curl -H "Content-Type: application/json" -X POST -d '
