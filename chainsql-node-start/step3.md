@@ -15,10 +15,13 @@ ChainSQL的配置文件一般放在与可执行文件 chainsqld 同级的目录�
 
 
 ## 启动节点，并查看状态
-1. 执行`~/chainsql/start.sh`{{execute}} 启动4个节点
+1. 执行`~/chainsql/startAll.sh`{{execute}} 启动4个节点
+
 2. 查看进程`ps -ef|grep chainsqld`{{execute}}，可以看到4个chainsqld的进程
+
 3. 执行`cd chainsql/1 && ./chainsqld peers` 可以看到当前1节点有3个邻节点
-5. 执行`./chainsqld server_info`{{execute}} 等10秒（`uptime` 字段的值>=10）左右，`server_status`值会变成`normal`
+
+4. 执行`./chainsqld server_info`{{execute}} 等10秒（`uptime` 字段的值>=10）左右，`server_status`值会变成`normal`
 
 ## 退出节点
-执行 `~/chainsql/stop.sh`{{execute}} 关闭4个节点，可用`ps -ef|grep chainsqld`{{execute}} 去确认
+执行 `~/chainsql/stopAll.sh`{{execute}} 关闭4个节点，可用`ps -ef|grep chainsqld`{{execute}} 去确认
