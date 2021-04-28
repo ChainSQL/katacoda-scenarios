@@ -1,5 +1,5 @@
 {
-  "title": "docker部署chainsql",
+  "title": "第2节：docker部署chainsql",
   "description": "使用docker容器部署chainsql网络",
   "difficulty": "Beginner",
   "time": "10minutes",
