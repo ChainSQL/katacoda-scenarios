@@ -1,0 +1,39 @@
+version: '2'
+  
+services:
+  1:
+    image: "peersafes/chainsql:latest"
+    container_name: "node1"
+    ports:
+         - 5125:5125
+         - 5005:5005
+         - 6006:6006
+    volumes:
+       - /root/1/chainsqld.cfg:/opt/chainsql/chainsqld.cfg
+  2:
+    image: "peersafes/chainsql:latest"
+    container_name: "node2"
+    ports:
+         - 5125:5126
+         - 5005:5006
+         - 6006:6007
+    volumes:
+       - /root/2/chainsqld.cfg:/opt/chainsql/chainsqld.cfg
+  3:
+    image: "peersafes/chainsql:latest"
+    container_name: "node3"
+    ports:
+         - 5125:5127
+         - 5005:5007
+         - 6006:6008
+    volumes:
+       - /root/3/chainsqld.cfg:/opt/chainsql/chainsqld.cfg
+  4:
+    image: "peersafes/chainsql:latest"
+    container_name: "node4"
+    ports:
+         - 5125:5128
+         - 5005:5008
+         - 6006:6009
+    volumes:
+       - /root/4/chainsqld.cfg:/opt/chainsql/chainsqld.cfg
