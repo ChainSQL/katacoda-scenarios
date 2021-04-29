@@ -1,0 +1,11 @@
+{
+  "title": "ChainSQL教程",
+  "description": "ChainSQL的环境搭建，基本操作等",
+  "courses": [
+    {
+      "course_id": "chainsql-node-start",
+      "title": "第1节：ChainSQL环境搭建",
+      "description": "学习如何获取chainsql节点，以及部署简单ChainSQL网络方法"
+    }
+  ]
+}
