@@ -15,11 +15,9 @@
 4. 执行命令`exit`{{execute}}退出mysql登录，然后执行`exit`{{execute}}退出mysql的docker
 
 ## 在节点1中配置mysql数据库
-1. 执行`cd ~/chainsql/1 && vim chainsqld.cfg`{{execute}}对节点1的配置文件进行编辑
+1. 在`1/chainsqld.cfg`文件结尾插入以下内容：
 
-2. 在文件结尾插入以下内容，然后按`:wq`保存并退出文件：
-
-<pre>
+<pre class="file" data-filename="~/1/chainsql/chainsqld.cfg" data-target="prepend">
 [sync_db]
 type=mysql
 host=127.0.0.1
@@ -34,8 +32,8 @@ charset=utf8
 1
 </pre>
 
-3. 可以用`cat chainsqld.cfg`{{execute}}查看配置文件，确认已经正确添加相关配置
+2. 可以用`cat chainsqld.cfg`{{execute}}查看配置文件，确认已经正确添加相关配置
 
-4. 执行命令 `cd ~/chainsql && ./startAll.sh`{{execute}} 启动4个节点
+3. 执行命令 `cd ~/chainsql && ./startAll.sh`{{execute}} 启动4个节点
 
 然后`cd ~/chainsql/1 && ./chainsqld server_info`{{execute}}查看节点1的server_info等待`server_status`值变为normal
