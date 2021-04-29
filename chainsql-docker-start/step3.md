@@ -13,3 +13,5 @@
 5. 查看节点状态`./chainsqld server_info`{{execute}}
  
 6. 查看邻接节点信息`./chainsqld peers`{{execute}}
+
+7. 退出docker终端 `exit`{{execute}}

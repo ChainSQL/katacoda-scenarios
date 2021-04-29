@@ -106,3 +106,5 @@ curl -H "Content-Type: application/json" -X POST -d '
 	    ]
 	}' http://127.0.0.1:5005
 ```{{execute}}
+
+返回结果中，可以看到我们刚刚插入的两条数据
