@@ -6,15 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "版本获取",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "单点运行chainsqld",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "部署4节点网络",
         "text": "step3.md"
       }
     ],

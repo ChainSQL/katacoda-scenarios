@@ -1,4 +1,3 @@
-链查询操作
 
 先执行 `cd ~/chainsql/1`{{execute}}切换到chainsql节点的目录
 

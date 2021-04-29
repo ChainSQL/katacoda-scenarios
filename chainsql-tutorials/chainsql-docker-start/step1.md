@@ -1,4 +1,3 @@
-从docker 拉取版本
 
 ChainSQL 节点的 Docker 镜像地址为：
 [ChainSQL docker地址](https://hub.docker.com/r/peersafes/chainsql/tags?page=1&ordering=last_updated)

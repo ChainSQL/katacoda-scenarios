@@ -1,4 +1,3 @@
-单点运行chainsqld
 
 在将chainsql节点程序下载到本地后，执行如下操作：
 

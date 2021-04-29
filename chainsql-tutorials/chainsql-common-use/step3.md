@@ -1,4 +1,3 @@
-账户的基本操作
 
 ChainSQL在创世块中有一个根账户（`zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh`），所有的系统币(ZXC)都在这个根账户中，可以执行命令
 `./chainsqld account_info zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh`{{execute}} 查看根账户信息，可以看到它的余额信息`Balance`字段

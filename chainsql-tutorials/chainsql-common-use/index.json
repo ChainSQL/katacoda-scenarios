@@ -6,23 +6,23 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "快速部署",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "配置mysql数据库",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "账户的基本操作",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "表操作",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "链上信息查询",
         "text": "step5.md"
       }
     ],
@@ -34,7 +34,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:1804"

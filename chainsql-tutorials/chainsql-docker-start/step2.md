@@ -1,4 +1,3 @@
-生成配置文件
 
 1. 执行命令`wget https://github.com/ChainSQL/chainsql-tools/releases/download/v1.0.0/chainsql-tools.tar.gz`{{execute}} 下载 chainsql-tools.tar.gz 然后执行命令
 

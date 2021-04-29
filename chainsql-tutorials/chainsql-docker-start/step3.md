@@ -1,4 +1,3 @@
-在容器中启动节点
 
 1. 拉取docker部署相关的配置文件：
 `cd ~ && wget http://chainsql.net/chainsql-deploy.tar.gz && tar zxvf chainsql-deploy.tar.gz && rm chainsql-deploy.tar.gz`{{execute}}

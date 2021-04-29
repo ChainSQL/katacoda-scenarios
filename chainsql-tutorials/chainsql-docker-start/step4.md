@@ -1,5 +1,3 @@
-关闭容器
-
 
 1. 执行下面的命令关闭容器 `docker-compose -f chainsql-deployment.yaml down`{{execute}} 
 

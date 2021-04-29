@@ -1,4 +1,3 @@
-部署4节点网络
 
 ## 配置说明
 ChainSQL的配置文件一般放在与可执行文件 chainsqld 同级的目录中，名称为`chainsqld.cfg`
