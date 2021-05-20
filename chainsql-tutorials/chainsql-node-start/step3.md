@@ -10,17 +10,18 @@ ChainSQL的配置文件一般放在与可执行文件 chainsqld 同级的目录�
 
 ## 下载打包好的4个节点配置文件
 1. 执行命令`cd ~ && wget http://chainsql.net/chainsql-cfgs.tar.gz`{{execute}} 下载 chainsql-cfgs.tar.gz 然后执行命令
-2. 执行命令 `tar zxvf chainsql-cfgs.tar.gz -C ~/chainsql`{{execute}} 进行解压
+2. 执行命令`mkdir chainsql-4nodes` 创建新的文件夹
+3. 执行命令 `tar zxvf chainsql-cfgs.tar.gz -C ~/chainsql-4nodes`{{execute}} 进行解压
 
 
 ## 启动节点，并查看状态
-1. 执行`~/chainsql/startAll.sh`{{execute}} 启动4个节点
+1. 执行`~/chainsql-4nodes/startAll.sh`{{execute}} 启动4个节点
 
 2. 查看进程`ps -ef|grep chainsqld`{{execute}}，可以看到4个chainsqld的进程
 
-3. 执行`cd chainsql/1 && ./chainsqld peers` 可以看到当前1节点有3个邻节点
+3. 执行`cd ~/chainsql-4nodes/1 && ./chainsqld peers`{{execute}} 可以看到当前1节点有3个邻节点
 
 4. 执行`./chainsqld server_info`{{execute}} 等10秒（`uptime` 字段的值>=10）左右，`server_status`值会变成`normal`
 
 ## 退出节点
-执行 `~/chainsql/stopAll.sh`{{execute}} 关闭4个节点，可用`ps -ef|grep chainsqld`{{execute}} 去确认
+执行 `~/chainsql-4nodes/stopAll.sh`{{execute}} 关闭4个节点，可用`ps -ef|grep chainsqld`{{execute}} 去确认
