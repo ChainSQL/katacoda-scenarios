@@ -3,7 +3,7 @@
 
 1. 创建chainsql文件夹 `mkdir chainsql`{{execute}}
 
-2. 执行`tar zxvf chainsqld-linux-x64-1.1.4-pop.tar.gz -C chainsql`{{execute}}  命令将节点程序解压到 chainsql目录
+2. 执行`tar zxvf chainsqld-linux-x64-3.0.0.tar.gz -C chainsql`{{execute}}  命令将节点程序解压到 chainsql目录
 
 3. 解压后执行 `cd chainsql`{{execute}} 进入到chainsql目录，然后执行 `ls`{{execute}} 命令可以看到目录下有chainsqld与 chainsqld.cfg两个文件，其中chainsqld.cfg是可单点执行的配置文件
 
