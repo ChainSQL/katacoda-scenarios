@@ -4,6 +4,9 @@ services:
   node1:
     image: "peersafes/chainsql:latest"
     container_name: "node1"
+    networks:
+     extnetwork:
+      ipv4_address: 172.19.0.11
     ports:
          - 5125:5125
          - 5005:5005
@@ -13,6 +16,9 @@ services:
   node2:
     image: "peersafes/chainsql:latest"
     container_name: "node2"
+    networks:
+     extnetwork:
+      ipv4_address: 172.19.0.12
     ports:
          - 5126:5126
          - 5006:5006
@@ -22,6 +28,9 @@ services:
   node3:
     image: "peersafes/chainsql:latest"
     container_name: "node3"
+    networks:
+     extnetwork:
+      ipv4_address: 172.19.0.13
     ports:
          - 5127:5127
          - 5007:5007
@@ -31,9 +40,18 @@ services:
   node4:
     image: "peersafes/chainsql:latest"
     container_name: "node4"
+    networks:
+     extnetwork:
+      ipv4_address: 172.19.0.14
     ports:
          - 5128:5128
          - 5008:5008
          - 6009:6009
     volumes:
        - /root/4/chainsqld.cfg:/opt/chainsql/chainsqld.cfg
+networks:
+  extnetwork:
+   ipam:
+     config:
+       - subnet: 172.19.0.0/16
+         gateway: 172.19.0.1
