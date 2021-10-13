@@ -19,7 +19,7 @@
 
 2. 在文件结尾插入以下内容，然后按`:wq`保存并退出文件：
 
-<pre>
+```
 [sync_db]
 type=mysql
 host=127.0.0.1
@@ -32,7 +32,7 @@ charset=utf8
 
 [auto_sync]
 1
-</pre>
+```
 
 3. 可以用`cat chainsqld.cfg`{{execute}}查看配置文件，确认已经正确添加相关配置
 
